@@ -1,0 +1,17 @@
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    /* Hide desktop menu on mobile */
+    .box-2, .box-3{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 20px;
+    }
+    /* Text container */
+    .text-container h2{
+        font-size: 35px;
+    }
+}
