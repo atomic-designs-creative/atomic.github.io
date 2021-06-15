@@ -16,15 +16,7 @@
     src: url(../fonts/Tajawal-Regular.ttf);
 }
 
-/* Animated background */
-.area {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100vh;
-    top: 0;
- }
- 
+/* Animated background */ 
  .circles {
     position: absolute;
     top: 0;
@@ -33,6 +25,7 @@
     height: 100%;
     overflow: hidden;
     opacity: 0.5;
+    z-index: -1;
  }
  
  .circles li {
@@ -143,8 +136,10 @@
 .nav-container{
     width: 100%;
     height: 70px;
+    top: 20px;
+    position: relative;
     display: flex;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .box-1{
@@ -258,4 +253,35 @@
     font-family: sans-serif;
     font-weight: 900;
     background-color: #E5F1FF;
+}
+
+/* ***************CONTAINER ONE**************** */
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+/* ******************************************** */
+.container-1{
+    width: 100%;
+    position: relative;
+    top: 13rem;
+    height: 100vh;
+}
+
+.text-container1{
+    text-align: center;
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    top: 10px;
+    padding-top: 30px;
+}
+
+.text-container1 h2{
+    font-size: 40px;
+    color: #2B3544;
+}
+
+.text-container1 h3{
+    margin-top: 30px;
+    opacity: 0.5;
 }

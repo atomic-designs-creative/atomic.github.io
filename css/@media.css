@@ -9,9 +9,19 @@
         right: 20px;
         top: 15px;
         font-size: 20px;
+        color: #2B3544;
     }
     /* Text container */
+    .text-container{
+        all: initial;
+        text-align: center;
+        top: 50px;
+        position: relative;
+    }
     .text-container h2{
         font-size: 35px;
+    }
+    .text-container h3{
+        margin: 0 20px 40px 0;
     }
 }
